@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="text_game_title">Battle of the Somme</string>
+    
+    <string name="text_instructions_title">Game Instructions</string>
+    <string name="text_instructions_body_1">Swipe the srcreen to move the tank up, down, left and right.</string>
+    <string name="text_instructions_body_2">Move the tank to collect coins, avoiding bombs.</string>
+    <string name="text_instructions_body_3">Collected coins are cumulated, and you can buy special items with them.</string>
+    <string name="text_instructions_body_4">Check your profile for status and settings.</string>
+    <string name="text_instructions_body_5">Complete achievements for extra rewards.</string>
+    
+    <string name="text_profile_title">Profile</string>
+    <string name="text_profile_total_coins_label">Total coins collected</string>
+    <string name="text_profile_most_coins_label">Most coins achieved in a game</string>
+    <string name="text_profile_max_level_label">Maximum level </string>
+    <string name="text_profile_commander">Commander</string>
+    <string name="text_profile_name">Justin Jung</string>
+    <string name="text_profile_skin">Skin</string>
+    
+    <string name="text_game_arrow">Arrow</string>
+    
+    <string name="button_instructions">Instructions</string>
+    <string name="button_profile">Profile</string>
+    <string name="button_game">Start Game</string>
+    
+</resources>
