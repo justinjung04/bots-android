@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:gravity="center"
+    android:background="@drawable/main_background"
+    android:orientation="vertical" >
+	    
+    <ImageView
+        android:contentDescription="@string/imageview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:scaleType="fitCenter"
+        android:src="@drawable/main_title"/>
+    
+    <ImageView
+        android:contentDescription="@string/imageview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:scaleType="fitCenter"
+        android:src="@drawable/main_tank"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    
+    <Button
+        android:id="@+id/main_button_start"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/start"
+        android:onClick="openActivity" />
+	    
+    <Button
+        android:id="@+id/main_button_profile"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/profile"
+        android:onClick="openActivity" />
+    
+    <Button
+        android:id="@+id/main_button_achievements"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/achievements"
+        android:onClick="openActivity" />
+    
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5" />
+    
+</LinearLayout>

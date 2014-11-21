@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="text_game_title">Battle of the Somme</string>
+    
+    <string name="imageview">ImageView</string>
+    <string name="commander">Commander</string>
+    <string name="total_coin">Total coins owned</string>
+    <string name="most_coin">Most coins collected in a game</string>
+    <string name="highest_level">Highest level achieved</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="new_user">New User</string>
+    <string name="owned">Owned</string>
+    <string name="not_owned">Not Owned</string>
+    <string name="cost">Cost</string>
+    <string name="current_balance">Current Balance</string>
+    <string name="remaining_balance">Remaining Balance</string>
+    <string name="insufficient_balance">Insufficient balance</string>
+    <string name="game_over">Game Over</string>
+    <string name="coins_collected">Coins Collected</string>
+    <string name="level_achieved">Level Achieved</string>
+    <string name="extra_rewards">Extra Rewards</string>
+    <string name="completed_achievements">Completed Achievements</string>
+    <string name="completed_achievement">Completed Achievement</string>
+    <string name="level">Level</string>
+    <string name="share_score">Share your score using</string>
+    <string name="skin">Skin</string>
+    <string name="skins">Skins</string>
+    <string name="skin_default_display">Default</string>
+    <string name="skin_guerrilla_display">Guerrilla</string>
+    <string name="skin_battleship_display">Battleship</string>
+    <string name="skin_pilot_display">Pilot</string>
+    <string name="skin_christmas_display">Christmas</string>
+    <string name="start">Start</string>
+    <string name="retry">Retry</string>
+    <string name="profile">Profile</string>
+    <string name="achievements">Achievements</string>
+    <string name="home">Home</string>
+    <string name="share">Share</string>
+    <string name="apply">Apply</string>
+    <string name="cancel">Cancel</string>
+    <string name="buy">Buy</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="buy_skin_korean">Buy skin korean</string>
+    
+    <!-- Skins DO NOT CHANGE LANGUAGE -->
+    <string name="skin_default">Default</string>
+    <string name="skin_guerrilla">Guerrilla</string>
+    <string name="skin_battleship">Battleship</string>
+    <string name="skin_pilot">Pilot</string>
+    <string name="skin_christmas">Christmas</string>
+    
+    <!-- Data strings DO NOT CHANGE LANGUAGE-->
+    <string name="data_title">Data</string>
+    <string name="data_username">Username</string>
+    <string name="data_most_coins">Most Coins</string>
+    <string name="data_total_coins">Total Coins</string>
+    <string name="data_highest_level">Highest Level</string>
+    <string name="data_selected_skin">Skin</string>
+    <string name="data_available_skins">Available Skins</string>
+    <string name="data_completed_achievements">Completed Achievements</string>
+    
+    <!-- Toasts -->
+    <string name="toast_username_error">Username should contain at least one character</string>
+    <string name="toast_press_back">Press back button again to exit</string>
+    <string name="toast_swipe">Swipe to move the tank</string>
+    
+    <!-- Achievements -->
+    <string name="achievement_beginner">1. Beginner</string>
+    <string name="achievement_beginner_detail">Play Battle of the Somme for the first time\nRewards: 10 coins</string>
+    
+    <string name="achievement_retreat">2. Retreat</string>
+    <string name="achievement_retreat_detail">End a game with 0 coin collected\nRewards: 10 coins</string>
+    
+    <string name="achievement_coinseeker">3. Coin Seeker</string>
+    <string name="achievement_coinseeker_detail">Collect 50 coins\nRewards: 15 coins</string>
+    
+    <string name="achievement_levelbachelor">4. Bachelor\'s Level</string>
+    <string name="achievement_levelbachelor_detail">Achieve level 5\nRewards: 15 coins</string>
+    
+    <string name="achievement_coinfinder">5. Coin Finder</string>
+    <string name="achievement_coinfinder_detail">Collect 100 coins\nRewards: 20 coins</string>
+    
+    <string name="achievement_skinlover">6. Skin Lover</string>
+    <string name="achievement_skinlover_detail">Own 3 skins\nRewards: 20 coins</string>
+    
+    <string name="achievement_coincollector">7. Coin Collector</string>
+    <string name="achievement_coincollector_detail">Collect 200 coins\nRewards: 25 coins</string>
+    
+    <string name="achievement_levelmaster">8. Master\'s Level</string>
+    <string name="achievement_levelmaster_detail">Achieve level 10\nRewards: 25 coins</string>
+    
+    <string name="achievement_coinvacuum">9. Coin Vacuum</string>
+    <string name="achievement_coinvacuum_detail">Collect 400 coins\nRewards: 30 coins</string>
+    
+    <string name="achievement_coinmagnet">10. Coin Magnet</string>
+    <string name="achievement_coinmagnet_detail">Collect 600 coins\nRewards: 30 coins</string>
+    
+    <string name="achievement_skin2lover">11. Skin Lover 2</string>
+    <string name="achievement_skin2lover_detail">Own 5 skins\nRewards: 35 coins</string>
+    
+    <string name="achievement_levelphd">12. PhD\'s Level</string>
+    <string name="achievement_levelphd_detail">Achieve level 15\nRewards: 35 coins</string>
+    
+    <string name="achievement_coindealer">13. Coin Dealer</string>
+    <string name="achievement_coindealer_detail">Collect 800 coins\nRewards: 40 coins</string>
+    
+    <string name="achievement_coinspecialist">14. Coin Specialist</string>
+    <string name="achievement_coinspecialist_detail">Collect 1000 coins\nRewards: 40 coins</string>
+    
+    <string name="achievement_levelpostdoc">15. Postdoc\'s Level</string>
+    <string name="achievement_levelpostdoc_detail">Achieve level 20\nRewards: 45 coins</string>
+    
+    <string name="achievement_skin3lover">16. Skin Lover 3</string>
+    <string name="achievement_skin3lover_detail">Own 7 skins\nRewards: 45 coins</string>
+    
+    <string name="achievement_coinbroker">17. Coin Broker</string>
+    <string name="achievement_coinbroker_detail">Collect 1200 coins\nRewards: 50 coins</string>
+    
+    <string name="achievement_coinprofessor">18. Coin Doctor</string>
+    <string name="achievement_coinprofessor_detail">Collect 1400 coins\nRewards: 50 coins</string>
+    
+    <string name="achievement_skin4lover">19. Skin Lover 4</string>
+    <string name="achievement_skin4lover_detail">Own 10 skins\nRewards: 55 coins</string>
+    
+    <string name="achievement_levelprofessor">20. Professor\'s Level</string>
+    <string name="achievement_levelprofessor_detail">Achieve level 25\nRewards: 55 coins</string>
+    
+    <string name="achievement_coinmaster">21. Coin Master</string>
+    <string name="achievement_coinmaster_detail">Collect 1600 coins\nRewards: 60 coins</string>
+    
+    <string name="achievement_skin5lover">22. Skin Lover 5</string>
+    <string name="achievement_skin5lover_detail">Own 15 skins\nRewards: 60 coins</string>
+    
+    <string name="achievement_coinfanatic">23. Coin Fanatic</string>
+    <string name="achievement_coinfanatic_detail">Collect 1800 coins\nRewards: 65 coins</string>
+    
+    <string name="achievement_coinmaniac">24. Coin Maniac</string>
+    <string name="achievement_coinmaniac_detail">Collect 2000 coins\nRewards: 65 coins</string>
+    
+</resources>

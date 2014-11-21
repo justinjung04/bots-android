@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="coord_0_0" type="id"/>
+	<item name="coord_0_1" type="id"/>
+	<item name="coord_0_2" type="id"/>
+	<item name="coord_0_3" type="id"/>
+	<item name="coord_0_4" type="id"/>
+	<item name="coord_0_5" type="id"/>
+	<item name="coord_0_6" type="id"/>
+	<item name="coord_0_7" type="id"/>
+	<item name="coord_0_8" type="id"/>
+	<item name="coord_0_9" type="id"/>
+	
+	<item name="coord_1_0" type="id"/>
+	<item name="coord_1_1" type="id"/>
+	<item name="coord_1_2" type="id"/>
+	<item name="coord_1_3" type="id"/>
+	<item name="coord_1_4" type="id"/>
+	<item name="coord_1_5" type="id"/>
+	<item name="coord_1_6" type="id"/>
+	<item name="coord_1_7" type="id"/>
+	<item name="coord_1_8" type="id"/>
+	<item name="coord_1_9" type="id"/>
+	
+	<item name="coord_2_0" type="id"/>
+	<item name="coord_2_1" type="id"/>
+	<item name="coord_2_2" type="id"/>
+	<item name="coord_2_3" type="id"/>
+	<item name="coord_2_4" type="id"/>
+	<item name="coord_2_5" type="id"/>
+	<item name="coord_2_6" type="id"/>
+	<item name="coord_2_7" type="id"/>
+	<item name="coord_2_8" type="id"/>
+	<item name="coord_2_9" type="id"/>
+	
+	<item name="coord_3_0" type="id"/>
+	<item name="coord_3_1" type="id"/>
+	<item name="coord_3_2" type="id"/>
+	<item name="coord_3_3" type="id"/>
+	<item name="coord_3_4" type="id"/>
+	<item name="coord_3_5" type="id"/>
+	<item name="coord_3_6" type="id"/>
+	<item name="coord_3_7" type="id"/>
+	<item name="coord_3_8" type="id"/>
+	<item name="coord_3_9" type="id"/>
+	
+	<item name="coord_4_0" type="id"/>
+	<item name="coord_4_1" type="id"/>
+	<item name="coord_4_2" type="id"/>
+	<item name="coord_4_3" type="id"/>
+	<item name="coord_4_4" type="id"/>
+	<item name="coord_4_5" type="id"/>
+	<item name="coord_4_6" type="id"/>
+	<item name="coord_4_7" type="id"/>
+	<item name="coord_4_8" type="id"/>
+	<item name="coord_4_9" type="id"/>
+	
+	<item name="coord_5_0" type="id"/>
+	<item name="coord_5_1" type="id"/>
+	<item name="coord_5_2" type="id"/>
+	<item name="coord_5_3" type="id"/>
+	<item name="coord_5_4" type="id"/>
+	<item name="coord_5_5" type="id"/>
+	<item name="coord_5_6" type="id"/>
+	<item name="coord_5_7" type="id"/>
+	<item name="coord_5_8" type="id"/>
+	<item name="coord_5_9" type="id"/>
+	
+	<item name="coord_6_0" type="id"/>
+	<item name="coord_6_1" type="id"/>
+	<item name="coord_6_2" type="id"/>
+	<item name="coord_6_3" type="id"/>
+	<item name="coord_6_4" type="id"/>
+	<item name="coord_6_5" type="id"/>
+	<item name="coord_6_6" type="id"/>
+	<item name="coord_6_7" type="id"/>
+	<item name="coord_6_8" type="id"/>
+	<item name="coord_6_9" type="id"/>
+	
+	<item name="coord_7_0" type="id"/>
+	<item name="coord_7_1" type="id"/>
+	<item name="coord_7_2" type="id"/>
+	<item name="coord_7_3" type="id"/>
+	<item name="coord_7_4" type="id"/>
+	<item name="coord_7_5" type="id"/>
+	<item name="coord_7_6" type="id"/>
+	<item name="coord_7_7" type="id"/>
+	<item name="coord_7_8" type="id"/>
+	<item name="coord_7_9" type="id"/>
+	
+	<item name="coord_8_0" type="id"/>
+	<item name="coord_8_1" type="id"/>
+	<item name="coord_8_2" type="id"/>
+	<item name="coord_8_3" type="id"/>
+	<item name="coord_8_4" type="id"/>
+	<item name="coord_8_5" type="id"/>
+	<item name="coord_8_6" type="id"/>
+	<item name="coord_8_7" type="id"/>
+	<item name="coord_8_8" type="id"/>
+	<item name="coord_8_9" type="id"/>
+	
+	<item name="coord_9_0" type="id"/>
+	<item name="coord_9_1" type="id"/>
+	<item name="coord_9_2" type="id"/>
+	<item name="coord_9_3" type="id"/>
+	<item name="coord_9_4" type="id"/>
+	<item name="coord_9_5" type="id"/>
+	<item name="coord_9_6" type="id"/>
+	<item name="coord_9_7" type="id"/>
+	<item name="coord_9_8" type="id"/>
+	<item name="coord_9_9" type="id"/>
+	
+</resources>

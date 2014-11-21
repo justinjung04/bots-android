@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="text_game_title">Battle of the Somme</string>
+    
+    <string name="imageview">ImageView</string>
+    <string name="commander">사령관</string>
+    <string name="total_coin">총 보유 금액</string>
+    <string name="most_coin">가장 많이 획득한 금액</string>
+    <string name="highest_level">최고 레벨</string>
+    <string name="enter_username">이름을 입력하세요</string>
+    <string name="new_user">새로운 유저</string>
+    <string name="owned">사용 가능</string>
+    <string name="not_owned">보유하지 않은 스킨</string>
+    <string name="cost">가격</string>
+    <string name="current_balance">보유 금액</string>
+    <string name="remaining_balance">구매 후 잔고</string>
+    <string name="insufficient_balance">잔액이 부족합니다</string>
+    <string name="game_over">게임 오버</string>
+    <string name="coins_collected">획득한 금액</string>
+    <string name="level_achieved">레벨</string>
+    <string name="extra_rewards">보상금</string>
+    <string name="completed_achievements">업적 달성</string>
+    <string name="completed_achievement">업적 달성</string>
+    <string name="level">레벨</string>
+    <string name="share_score">점수 공유하기</string>
+    <string name="skin">스킨</string>
+    <string name="skins">스킨</string>
+    <string name="skin_default_display">육군</string>
+    <string name="skin_guerrilla_display">게릴라</string>
+    <string name="skin_battleship_display">배틀쉽</string>
+    <string name="skin_pilot_display">파일럿</string>
+    <string name="skin_christmas_display">크리스마스</string>
+    <string name="start">시작</string>
+    <string name="retry">다시하기</string>
+    <string name="profile">프로필</string>
+    <string name="achievements">업적</string>
+    <string name="home">메인화면</string>
+    <string name="share">점수공유</string>
+    <string name="apply">적용</string>
+    <string name="cancel">취소</string>
+    <string name="buy">구매</string>
+    <string name="yes">네</string>
+    <string name="no">아니오</string>
+    <string name="buy_skin_korean">을(를) 구매하시겠습니까?</string>
+    
+    <!-- Skins DO NOT CHANGE LANGUAGE -->
+    <string name="skin_default">Default</string>
+    <string name="skin_guerrilla">Guerrilla</string>
+    <string name="skin_battleship">Battleship</string>
+    <string name="skin_pilot">Pilot</string>
+    <string name="skin_christmas">Christmas</string>
+    
+    <!-- Data strings DO NOT CHANGE LANGUAGE -->
+    <string name="data_title">Data</string>
+    <string name="data_username">Username</string>
+    <string name="data_most_coins">Most Coins</string>
+    <string name="data_total_coins">Total Coins</string>
+    <string name="data_highest_level">Highest Level</string>
+    <string name="data_selected_skin">Skin</string>
+    <string name="data_available_skins">Available Skins</string>
+    <string name="data_completed_achievements">Completed Achievements</string>
+    
+    <!-- Toasts -->
+    <string name="toast_username_error">유저 이름은 최소 한글자 이상이여야 합니다</string>
+    <string name="toast_press_back">뒤로 버튼을 한번 더 누르시면 종료됩니다</string>
+    <string name="toast_swipe">화면을 밀어 탱크를 움직이세요</string>
+    
+    <!-- Achievements -->
+    <string name="achievement_beginner">1. 초보자</string>
+    <string name="achievement_beginner_detail">Battle of the Somme 게임을 처음으로 해보세요\n보상: 동전 10개</string>
+    
+    <string name="achievement_retreat">2. 후퇴</string>
+    <string name="achievement_retreat_detail">동전을 0개 획득하고 게임을 끝내세요\n보상: 동전 10개</string>
+    
+    <string name="achievement_coinseeker">3. 동전 희망가</string>
+    <string name="achievement_coinseeker_detail">동전 50개를 모으세요\n보상: 동전 15개</string>
+    
+    <string name="achievement_levelbachelor">4. 학사 레벨</string>
+    <string name="achievement_levelbachelor_detail">레벨 5를 달성하세요\n보상: 동전 15개</string>
+    
+    <string name="achievement_coinfinder">5. 동전 탐색가</string>
+    <string name="achievement_coinfinder_detail">동전 100개를 모으세요\n보상: 동전 20개</string>
+    
+    <string name="achievement_skinlover">6. 스킨 러버</string>
+    <string name="achievement_skinlover_detail">스킨 3개를 소유하세요\n보상: 동전 20개</string>
+    
+    <string name="achievement_coincollector">7. 동전 수집가</string>
+    <string name="achievement_coincollector_detail">동전 200개를 모으세요\n보상: 동전 25개</string>
+    
+    <string name="achievement_levelmaster">8. 석사 레벨 </string>
+    <string name="achievement_levelmaster_detail">레벨 10을 달성하세요\n보상: 동전 25개</string>
+    
+    <string name="achievement_coinvacuum">9. 동전 청소기</string>
+    <string name="achievement_coinvacuum_detail">동전 400를 모으세요\n보상: 동전 30개</string>
+    
+    <string name="achievement_coinmagnet">10. 동전 자석</string>
+    <string name="achievement_coinmagnet_detail">동전 600개를 모으세요\n보상: 동전 30개</string>
+    
+    <string name="achievement_skin2lover">11. 스킨 러버 2</string>
+    <string name="achievement_skin2lover_detail">스킨을 5개 소유하세요\n보상: 동전 35개</string>
+    
+    <string name="achievement_levelphd">12. 박사 레벨</string>
+    <string name="achievement_levelphd_detail">레벨 15를 달성하세요\n보상: 동전 35개</string>
+    
+    <string name="achievement_coindealer">13. 동전 밀매상</string>
+    <string name="achievement_coindealer_detail">동전 800개를 모으세요\n보상: 동전 40개</string>
+    
+    <string name="achievement_coinspecialist">14. 동전 전문가</string>
+    <string name="achievement_coinspecialist_detail">동전 1000개를 모으세요\n보상: 동전 40개</string>
+    
+    <string name="achievement_levelpostdoc">15. 연구원 레벨</string>
+    <string name="achievement_levelpostdoc_detail">레벨 20을 달성하세요\n보상: 동전 45개</string>
+    
+    <string name="achievement_skin3lover">16. 스킨 러버 3</string>
+    <string name="achievement_skin3lover_detail">스킨 7개를 소유하세요\n보상: 동전 45개</string>
+    
+    <string name="achievement_coinbroker">17. 동전 중개인</string>
+    <string name="achievement_coinbroker_detail">동전 1200개를 모으세요\n보상: 동전 50개</string>
+    
+    <string name="achievement_coinprofessor">18. 동전 교수</string>
+    <string name="achievement_coinprofessor_detail">동전 1400개를 모으세요\n보상: 동전 50개</string>
+    
+    <string name="achievement_skin4lover">19. 스킨 러버 4</string>
+    <string name="achievement_skin4lover_detail">스킨 10개를 소유하세요\n보상: 동전 55개</string>
+    
+    <string name="achievement_levelprofessor">20. 교수 레벨</string>
+    <string name="achievement_levelprofessor_detail">레벨 25를 달성하세요\n보상: 동전 55개</string>
+    
+    <string name="achievement_coinmaster">21. 동전 마스터</string>
+    <string name="achievement_coinmaster_detail">동전 1600개를 모으세요\n보상: 동전 60개</string>
+    
+    <string name="achievement_skin5lover">22. 스킨 러버 5</string>
+    <string name="achievement_skin5lover_detail">스킨 15개를 소유하세요\n보상: 동전 60개</string>
+    
+    <string name="achievement_coinfanatic">23. 동전 광신도</string>
+    <string name="achievement_coinfanatic_detail">동전 1800개를 모으세요\n보상: 동전 65개</string>
+    
+    <string name="achievement_coinmaniac">24. 동전 마니아</string>
+    <string name="achievement_coinmaniac_detail">동전 2000개를 모으세요\n보상: 동전 65개</string>
+    
+</resources>
