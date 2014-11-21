@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/xhdpi_background"
+    android:padding="20dp"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/achievement_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/achievement_list" />
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:layout_marginBottom="10dp" >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+            <TextView
+                android:id="@+id/achievement_beginner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="17sp"
+                android:text="@string/achievement_beginner" />
+            
+            <TextView
+                android:id="@+id/achievement_beginner_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:textStyle="italic"
+                android:text="@string/achievement_beginner_detail" />
+            
+            <TextView
+                android:id="@+id/achievement_retreat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="17sp"
+                android:text="@string/achievement_retreat" />
+            
+            <TextView
+                android:id="@+id/achievement_retreat_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:textStyle="italic"
+                android:text="@string/achievement_retreat_detail" />
+            
+            <TextView
+                android:id="@+id/achievement_coinseeker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="17sp"
+                android:text="@string/achievement_coinseeker" />
+            
+            <TextView
+                android:id="@+id/achievement_coinseeker_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:textStyle="italic"
+                android:text="@string/achievement_coinseeker_detail" />
+            
+            <TextView
+                android:id="@+id/achievement_levelbachelor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="17sp"
+                android:text="@string/achievement_levelbachelor" />
+            
+            <TextView
+                android:id="@+id/achievement_levelbachelor_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:textStyle="italic"
+                android:text="@string/achievement_levelbachelor_detail" />
+            
+            <TextView
+                android:id="@+id/achievement_coinfinder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="17sp"
+                android:text="@string/achievement_coinfinder" />
+            
+            <TextView
+                android:id="@+id/achievement_coinfinder_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:textStyle="italic"
+                android:text="@string/achievement_coinfinder_detail" />
+            
+            <TextView
+                android:id="@+id/achievement_skinlover"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="17sp"
+                android:text="@string/achievement_skinlover" />
+            
+            <TextView
+                android:id="@+id/achievement_skinlover_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:textStyle="italic"
+                android:text="@string/achievement_skinlover_detail" />
+            
+            <TextView
+                android:id="@+id/achievement_coincollector"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="17sp"
+                android:text="@string/achievement_coincollector" />
+            
+            <TextView
+                android:id="@+id/achievement_coincollector_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:textStyle="italic"
+                android:text="@string/achievement_coincollector_detail" />
+            
+            <TextView
+                android:id="@+id/achievement_levelmaster"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="17sp"
+                android:text="@string/achievement_levelmaster" />
+            
+            <TextView
+                android:id="@+id/achievement_levelmaster_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:textStyle="italic"
+                android:text="@string/achievement_levelmaster_detail" />
+            
+            <TextView
+                android:id="@+id/achievement_coinvacuum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="17sp"
+                android:text="@string/achievement_coinvacuum" />
+            
+            <TextView
+                android:id="@+id/achievement_coinvacuum_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:textStyle="italic"
+                android:text="@string/achievement_coinvacuum_detail" />
+            
+            <TextView
+                android:id="@+id/achievement_coinmagnet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="17sp"
+                android:text="@string/achievement_coinmagnet" />
+            
+            <TextView
+                android:id="@+id/achievement_coinmagnet_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:textStyle="italic"
+                android:text="@string/achievement_coinmagnet_detail" />
+            
+            <TextView
+                android:id="@+id/achievement_skin2lover"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="17sp"
+                android:text="@string/achievement_skin2lover" />
+            
+            <TextView
+                android:id="@+id/achievement_skin2lover_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:textStyle="italic"
+                android:text="@string/achievement_skin2lover_detail" />
+            
+            <TextView
+                android:id="@+id/achievement_levelphd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="17sp"
+                android:text="@string/achievement_levelphd" />
+            
+            <TextView
+                android:id="@+id/achievement_levelphd_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:textStyle="italic"
+                android:text="@string/achievement_levelphd_detail" />
+            
+            <TextView
+                android:id="@+id/achievement_coindealer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="17sp"
+                android:text="@string/achievement_coindealer" />
+            
+            <TextView
+                android:id="@+id/achievement_coindealer_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:textStyle="italic"
+                android:text="@string/achievement_coindealer_detail" />
+            
+            <TextView
+                android:id="@+id/achievement_coinspecialist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="17sp"
+                android:text="@string/achievement_coinspecialist" />
+            
+            <TextView
+                android:id="@+id/achievement_coinspecialist_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:textStyle="italic"
+                android:text="@string/achievement_coinspecialist_detail" />
+            
+            <TextView
+                android:id="@+id/achievement_levelpostdoc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="17sp"
+                android:text="@string/achievement_levelpostdoc" />
+            
+            <TextView
+                android:id="@+id/achievement_levelpostdoc_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:textStyle="italic"
+                android:text="@string/achievement_levelpostdoc_detail" />
+            
+            <TextView
+                android:id="@+id/achievement_skin3lover"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="17sp"
+                android:text="@string/achievement_skin3lover" />
+            
+            <TextView
+                android:id="@+id/achievement_skin3lover_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:textStyle="italic"
+                android:text="@string/achievement_skin3lover_detail" />
+            
+            <TextView
+                android:id="@+id/achievement_coinbroker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="17sp"
+                android:text="@string/achievement_coinbroker" />
+            
+            <TextView
+                android:id="@+id/achievement_coinbroker_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:textStyle="italic"
+                android:text="@string/achievement_coinbroker_detail" />
+            
+            <TextView
+                android:id="@+id/achievement_coinprofessor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="17sp"
+                android:text="@string/achievement_coinprofessor" />
+            
+            <TextView
+                android:id="@+id/achievement_coinprofessor_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:textStyle="italic"
+                android:text="@string/achievement_coinprofessor_detail" />
+            
+            <TextView
+                android:id="@+id/achievement_skin4lover"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="17sp"
+                android:text="@string/achievement_skin4lover" />
+            
+            <TextView
+                android:id="@+id/achievement_skin4lover_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:textStyle="italic"
+                android:text="@string/achievement_skin4lover_detail" />
+            
+            <TextView
+                android:id="@+id/achievement_levelprofessor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="17sp"
+                android:text="@string/achievement_levelprofessor" />
+            
+            <TextView
+                android:id="@+id/achievement_levelprofessor_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:textStyle="italic"
+                android:text="@string/achievement_levelprofessor_detail" />
+            
+            <TextView
+                android:id="@+id/achievement_coinmaster"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="17sp"
+                android:text="@string/achievement_coinmaster" />
+            
+            <TextView
+                android:id="@+id/achievement_coinmaster_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:textStyle="italic"
+                android:text="@string/achievement_coinmaster_detail" />
+            
+            <TextView
+                android:id="@+id/achievement_skin5lover"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="17sp"
+                android:text="@string/achievement_skin5lover" />
+            
+            <TextView
+                android:id="@+id/achievement_skin5lover_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:textStyle="italic"
+                android:text="@string/achievement_skin5lover_detail" />
+            
+            <TextView
+                android:id="@+id/achievement_coinfanatic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="17sp"
+                android:text="@string/achievement_coinfanatic" />
+            
+            <TextView
+                android:id="@+id/achievement_coinfanatic_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:textStyle="italic"
+                android:text="@string/achievement_coinfanatic_detail" />
+            
+            <TextView
+                android:id="@+id/achievement_coinmaniac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="17sp"
+                android:text="@string/achievement_coinmaniac" />
+            
+            <TextView
+                android:id="@+id/achievement_coinmaniac_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:textStyle="italic"
+                android:text="@string/achievement_coinmaniac_detail" />
+            
+        </LinearLayout>
+        
+    </ScrollView>
+    
+    <Button
+        android:id="@+id/achievement_button_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="goToMain"
+        android:text="@string/home" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3" />
+
+</LinearLayout>
