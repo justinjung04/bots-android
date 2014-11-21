@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+	    android:id="@+id/dialog_buy_text_title"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textSize="20sp"
+	    android:layout_margin="15dp" />
+    
+	<TextView 
+	    android:id="@+id/dialog_buy_text_current_balance"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginStart="10dp"
+	    android:layout_marginLeft="10dp"
+	    android:layout_marginTop="10dp"
+	    android:textSize="15sp" />
+	
+	<TextView 
+	    android:id="@+id/dialog_buy_text_skin_cost"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginStart="10dp"
+	    android:layout_marginLeft="10dp"
+	    android:textSize="15sp" />
+	
+	<TextView 
+	    android:id="@+id/dialog_buy_text_remaining_balance"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginStart="10dp"
+	    android:layout_marginLeft="10dp"
+	    android:textSize="15sp"
+	    android:layout_marginBottom="15dp" />
+	
+    <LinearLayout 
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:id="@+id/dialog_buy_button_cancel"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="@string/no"
+	        android:onClick="changeSkin"/>
+        
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:id="@+id/dialog_buy_button_buy"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1" 
+	        android:text="@string/yes"
+	        android:onClick="changeSkin"/>
+        
+    </LinearLayout>	
+	
+</LinearLayout>

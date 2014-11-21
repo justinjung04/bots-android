@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/xhdpi_background"
+    android:padding="10dp"
+    android:orientation="vertical" >
+	
+    <LinearLayout 
+        android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="3"
+	    android:gravity="center"
+	    android:orientation="vertical">
+        
+        <TextView
+            android:id="@+id/profile_text_commander"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_margin="5dp"
+	        android:textSize="15sp"
+	        android:text="@string/commander" />
+        
+        <TextView
+            android:id="@+id/profile_text_username"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_margin="5dp"
+	        android:textSize="30sp" />
+
+        <RatingBar
+            android:id="@+id/profile_rating_exp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"          
+            android:numStars="5"
+            android:rating="0"
+            android:stepSize="0.1"
+            android:isIndicator="true"
+            android:scaleX="0.5"
+            android:scaleY="0.5" />
+        
+    </LinearLayout>
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="5dp"
+	    android:layout_marginBottom="5dp"
+	    android:orientation="horizontal">
+            
+            <TextView
+                android:id="@+id/profile_text_total_coin_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:gravity="start"
+                android:text="@string/total_coin" />
+
+            <TextView
+                android:id="@+id/profile_text_total_coin_value"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:gravity="end" />
+            
+	</LinearLayout>
+	
+    <LinearLayout 
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="5dp"
+	    android:layout_marginBottom="5dp"
+	    android:orientation="horizontal">
+            
+            <TextView
+                android:id="@+id/profile_text_most_coin_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:gravity="start"
+                android:text="@string/most_coin" />
+
+            <TextView
+                android:id="@+id/profile_text_most_coin_value"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:gravity="end" />
+            
+	</LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="5dp"
+	    android:layout_marginBottom="5dp"
+	    android:orientation="horizontal">
+            
+            <TextView
+                android:id="@+id/profile_text_highest_level_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:gravity="start"
+                android:text="@string/highest_level" />
+
+            <TextView
+                android:id="@+id/profile_text_highest_level_value"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:gravity="end" />
+            
+	</LinearLayout>
+	
+    <LinearLayout 
+        android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="2"
+	    android:gravity="center_vertical"
+	    android:orientation="vertical">
+	     
+        <TextView
+            	android:id="@+id/profile_text_skin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="@string/skins" />
+        
+		<HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            
+	       <LinearLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_margin="5dp"
+	            android:orientation="horizontal" >
+			       
+               <ImageView
+	                android:id="@+id/skin_default"
+	                android:tag="@string/skin_default"
+	                android:layout_width="70dp"
+	                android:layout_height="70dp"
+	                android:layout_margin="5dp"
+	                android:contentDescription="@string/imageview"
+	                android:src="@drawable/skin_default"
+	                android:onClick="openSkin" />
+	           
+	           <ImageView
+	                android:id="@+id/skin_guerrilla"
+	                android:tag="@string/skin_guerrilla"
+	                android:layout_width="70dp"
+	                android:layout_height="70dp"
+	                android:layout_margin="5dp"
+	                android:contentDescription="@string/imageview"
+	                android:src="@drawable/skin_guerrilla"
+	                android:onClick="openSkin" />
+	           
+	           <ImageView
+	                android:id="@+id/skin_christmas"
+	                android:tag="@string/skin_christmas"
+	                android:layout_width="70dp"
+	                android:layout_height="70dp"
+	                android:layout_margin="5dp"
+	                android:contentDescription="@string/imageview"
+	                android:src="@drawable/skin_christmas"
+	                android:onClick="openSkin" />
+		           
+	        </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/profile_button_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="goToMain"
+        android:text="@string/home" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5" />
+    
+</LinearLayout>

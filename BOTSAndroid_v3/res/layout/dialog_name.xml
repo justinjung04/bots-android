@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/dialog_name_text_username_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_margin="15dp"
+        android:text="@string/enter_username" />
+
+    <EditText
+        android:id="@+id/dialog_name_text_username_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName" />
+    
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+	    <Button
+	        style="?android:attr/buttonBarButtonStyle"
+	        android:id="@+id/dialog_name_button_cancel"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="@string/cancel"
+	        android:onClick="changeUsername" />
+	    
+	    <Button
+	        style="?android:attr/buttonBarButtonStyle"
+	        android:id="@+id/dialog_name_button_apply"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="@string/apply"
+	        android:onClick="changeUsername" />
+        
+    </LinearLayout>
+
+</LinearLayout>

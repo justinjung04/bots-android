@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="text_game_title">Battle of the Somme</string>
+    
+    <string name="imageview">ImageView</string>
+    <string name="commander">Commander</string>
+    <string name="total_coin">Total coins owned</string>
+    <string name="most_coin">Most coins collected in a game</string>
+    <string name="highest_level">Highest level achieved</string>
+    <string name="enter_username">Enter Username:</string>
+    <string name="new_user">New User</string>
+    <string name="owned">Owned</string>
+    <string name="not_owned">Not Owned</string>
+    <string name="cost">Cost</string>
+    <string name="equals">:</string>
+    <string name="current_balance">Current Balance</string>
+    <string name="remaining_balance">Remaining Balance</string>
+    <string name="insufficient_balance">Insufficient balance</string>
+    
+    <!-- Skins -->
+    <string name="skin">Skin</string>
+    <string name="skins">Skins</string>
+    <string name="skin_default">Default</string>
+    <string name="skin_guerrilla">Guerrilla</string>
+    <string name="skin_christmas">Christmas</string>
+    
+    <!-- Button strings -->
+    <string name="start">Start</string>
+    <string name="restart">Restart</string>
+    <string name="profile">Profile</string>
+    <string name="achievements">Achievements</string>
+    <string name="home">Home</string>
+    <string name="share">Share</string>
+    <string name="apply">Apply</string>
+    <string name="cancel">Cancel</string>
+    <string name="buy">Buy</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    
+    <!-- Data strings -->
+    <string name="data_title">Data</string>
+    <string name="data_username">Username</string>
+    <string name="data_most_coins">Most Coins</string>
+    <string name="data_total_coins">Total Coins</string>
+    <string name="data_highest_level">Highest Level</string>
+    <string name="data_selected_skin">Skin</string>
+    <string name="data_available_skins">Available Skins</string>
+    
+    <!-- Toasts -->
+    <string name="toast_username_error">Username should contain at least one character</string>
+    <string name="toast_press_back">Press back button again to exit.</string>
+    
+    <string name="dialog_game_over_title">Game Over</string>
+	<string name="dialog_game_over_coins">Coins collected:</string>
+	<string name="dialog_game_over_level">Level achieved:</string>
+    
+    
+    
+</resources>
