@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="HandlerLeak" severity="ignore" />
+    <issue id="RtlHardcoded">
+        <ignore path="src/com/example/botsandroid/Command.java" />
+    </issue>
+</lint>
